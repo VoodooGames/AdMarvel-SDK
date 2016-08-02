@@ -1,0 +1,43 @@
+{
+  "name": "AdMarvel",
+  "version": "3.5.0",
+  "summary": "AdMarvel SDK for iOS.",
+  "description": "A github repository for the AdMarvel iOS SDK.",
+  "homepage": "http://operamediaworks.com/",
+  "authors": "Opera Mediaworks",
+  "license": "Apache License, Version 2.0",
+  "source": {
+    "git": "https://github.com/VoodooGames/AdMarvel-SDK.git",
+    "tag": "3.5.0"
+  },
+  "vendored_library": "libAdMarvelSDK.a",
+  "source_files": "./*",
+  "frameworks": [
+    "Accounts",
+    "AdSupport",
+    "AudioToolbox",
+    "AVFoundation",
+    "CFNetwork",
+    "CoreGraphics",
+    "CoreLocation",
+    "CoreMedia",
+    "CoreMotion",
+    "CoreTelephony",
+    "EventKit", 
+    "EventKitUI",
+    "iAd",
+    "MediaPlayer",
+    "MessageUI",
+    "MobileCoreServices",
+    "QuartzCore",
+    "Security",
+    "Social", 
+    "StoreKit", 
+    "SystemConfiguration",
+    "UIKit"
+  ],
+  "libraries": [
+    "c++",
+    "z"
+  ]
+}
