@@ -11,7 +11,7 @@
     "tag": "3.5.0"
   },
   "vendored_library": "libAdMarvelSDK.a",
-  "source_files": "**/*.{h,m}",
+  "public_header_files": "**/*.h",
   "frameworks": [
     "Accounts",
     "AdSupport",
