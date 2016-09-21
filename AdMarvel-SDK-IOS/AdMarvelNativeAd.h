@@ -171,6 +171,11 @@ typedef NS_ENUM(NSInteger, AdMarvelNativeAdSDKName) {
  */
 @property (nonatomic, readonly, strong) NSURL *url;
 
+/*!
+ The view for the notice
+ */
+@property (nonatomic, readonly, strong) UIView *view;
+
 @end
 
 

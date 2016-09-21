@@ -66,4 +66,8 @@
 - (void) fullScreenWebViewActivatedForNativeAd:(AdMarvelNativeAd *)nativeAd;
 - (void) fullScreenWebViewClosedForNativeAd:(AdMarvelNativeAd *)nativeAd;
 
+// This callback notifies you about video events
+-(void) didReceiveVideoEvent:(AdMarvelVideoEvent)event withInfo:(NSDictionary*)dictionary forNativeAd:(AdMarvelNativeAd *)nativeAd;
+
+
 @end
